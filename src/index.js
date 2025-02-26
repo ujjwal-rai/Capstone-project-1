@@ -8,11 +8,12 @@ import reportWebVitals from './reportWebVitals.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID;
 
+// Add more specific error message for .env.local
 if (!clientId) {
-  console.error('Google Client ID is not defined in environment variables');
+  console.error('Google Client ID is not defined. Make sure you have a .env.local file with REACT_APP_GOOGLE_CLIENT_ID');
 }
 
-console.log('Client ID loaded:', clientId);
+console.log('Client ID loaded:', clientId); // For debugging
 
 root.render(
   <React.StrictMode>
