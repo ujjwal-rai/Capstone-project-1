@@ -33,6 +33,16 @@ export const Projects = () => {
       description: "ML & Data Analysis",
       imgUrl: projImg2,
     },
+    {
+      title: "AI Implementation",
+      description: "Artificial Intelligence",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Data Science Project",
+      description: "Data Analytics & Visualization",
+      imgUrl: projImg3,
+    },
   ];
 
   const nonCoreProjects = [
@@ -40,6 +50,16 @@ export const Projects = () => {
       title: "Web Development",
       description: "Frontend & Backend",
       imgUrl: projImg3,
+    },
+    {
+      title: "Mobile App",
+      description: "iOS & Android Development",
+      imgUrl: projImg1,
+    },
+    {
+      title: "UI/UX Design",
+      description: "User Interface & Experience",
+      imgUrl: projImg2,
     },
   ];
 
